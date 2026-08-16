@@ -1,2 +1,2 @@
 # devvsite
-CLI tool for php projects written with golang.
+A Go-based CLI tool for creating and managing native PHP development environments on Linux.
