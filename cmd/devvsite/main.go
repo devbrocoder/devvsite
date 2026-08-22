@@ -22,6 +22,9 @@ func main() {
 	case "help", "--help", "-h":
 		printHelp()
 
+	case "db":
+		fmt.Println("Database")
+
 	default:
 		fmt.Printf("Unknown command: %s\n", args[0])
 		fmt.Println("Run 'devvsite help' for usage.")
@@ -37,4 +40,5 @@ func printHelp() {
 	fmt.Println("Commands:")
 	fmt.Println("  help       Show this help message")
 	fmt.Println("  version    Show devvsite version")
+	fmt.Println("  db         Database command")
 }
