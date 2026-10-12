@@ -7,5 +7,5 @@ import (
 
 func runHostsAdd() {
 	var args = os.Args[1:]
-	fmt.Println(args)
+	fmt.Print(args)
 }
